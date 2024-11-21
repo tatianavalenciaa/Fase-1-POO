@@ -1,0 +1,6865 @@
+08-11-2024 08:28:50 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    usuario = ?
+    and password = ?
+
+08-11-2024 08:28:51 [ERROR] daos.UsuarioDao - Unknown column 'usuario' in 'where clause'
+08-11-2024 08:46:43 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+08-11-2024 08:46:44 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+08-11-2024 08:46:51 [INFO] daos.UsuarioDao - sql:
+select
+    u.id_usuario,
+    u.usuario,
+    u.password,
+    u.id_rol,
+    r.nombre
+from
+    usuario u
+    join rol r on u.id_rol = r.id_rol
+order by
+    id_usuario asc
+
+08-11-2024 08:46:51 [ERROR] daos.UsuarioDao - Unknown column 'u.usuario' in 'field list'
+08-11-2024 08:48:42 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+08-11-2024 08:48:42 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+08-11-2024 08:48:50 [INFO] daos.UsuarioDao - sql:
+select
+    u.id_usuario,
+    u.nombre,
+    u.carnet,
+    u.password,
+    u.id_rol,
+    r.nombre
+from
+    usuario u
+    join rol r on u.id_rol = r.id_rol
+order by
+    id_usuario asc
+
+08-11-2024 08:49:51 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+08-11-2024 08:49:52 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+08-11-2024 08:49:54 [INFO] daos.UsuarioDao - sql:
+select
+    u.id_usuario,
+    u.nombre,
+    u.carnet,
+    u.password,
+    u.id_rol,
+    r.nombre
+from
+    usuario u
+    join rol r on u.id_rol = r.id_rol
+order by
+    id_usuario asc
+
+08-11-2024 08:50:39 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+08-11-2024 08:50:39 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+08-11-2024 08:50:43 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+order by
+    id_rol asc
+
+08-11-2024 08:50:47 [INFO] daos.UsuarioDao - sql:
+select
+    u.id_usuario,
+    u.nombre,
+    u.carnet,
+    u.password,
+    u.id_rol,
+    r.nombre
+from
+    usuario u
+    join rol r on u.id_rol = r.id_rol
+order by
+    id_usuario asc
+
+08-11-2024 08:51:19 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+08-11-2024 08:51:20 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+08-11-2024 08:51:24 [INFO] daos.UsuarioDao - sql:
+select
+    u.id_usuario,
+    u.nombre,
+    u.carnet,
+    u.password,
+    u.id_rol,
+    r.nombre
+from
+    usuario u
+    join rol r on u.id_rol = r.id_rol
+order by
+    id_usuario asc
+
+08-11-2024 08:53:18 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+08-11-2024 08:53:18 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+08-11-2024 08:53:21 [INFO] daos.UsuarioDao - sql:
+select
+    u.id_usuario,
+    u.nombre as nombre_usuario,
+    u.carnet,
+    u.password,
+    u.id_rol,
+    r.nombre as nombre_rol
+from
+    usuario u
+    join rol r on u.id_rol = r.id_rol
+order by
+    id_usuario asc
+
+08-11-2024 08:53:59 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+08-11-2024 08:53:59 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+08-11-2024 08:54:02 [INFO] daos.UsuarioDao - sql:
+select
+    u.id_usuario,
+    u.nombre as nombre_usuario,
+    u.carnet,
+    u.password,
+    u.id_rol,
+    r.nombre as nombre_rol
+from
+    usuario u
+    join rol r on u.id_rol = r.id_rol
+order by
+    id_usuario asc
+
+08-11-2024 08:54:48 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+08-11-2024 08:54:49 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+08-11-2024 08:54:52 [INFO] daos.UsuarioDao - sql:
+select
+    u.id_usuario,
+    u.nombre as nombre_usuario,
+    u.carnet,
+    u.password,
+    u.id_rol,
+    r.nombre as nombre_rol
+from
+    usuario u
+    join rol r on u.id_rol = r.id_rol
+order by
+    id_usuario asc
+
+08-11-2024 08:55:58 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+08-11-2024 08:55:58 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+08-11-2024 08:56:02 [INFO] daos.UsuarioDao - sql:
+select
+    u.id_usuario,
+    u.nombre as nombre_usuario,
+    u.carnet,
+    u.password,
+    u.id_rol,
+    r.nombre as nombre_rol
+from
+    usuario u
+    join rol r on u.id_rol = r.id_rol
+order by
+    id_usuario asc
+
+08-11-2024 19:05:32 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+08-11-2024 19:05:32 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+08-11-2024 19:05:36 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+order by
+    id_rol asc
+
+08-11-2024 19:05:44 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+order by
+    id_rol asc
+
+08-11-2024 19:05:52 [INFO] daos.UsuarioDao - sql:
+select
+    u.id_usuario,
+    u.nombre as nombre_usuario,
+    u.carnet,
+    u.password,
+    u.id_rol,
+    r.nombre as nombre_rol
+from
+    usuario u
+    join rol r on u.id_rol = r.id_rol
+order by
+    id_usuario asc
+
+08-11-2024 19:06:06 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+order by
+    id_rol asc
+
+08-11-2024 19:07:26 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+order by
+    id_rol asc
+
+08-11-2024 19:07:31 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+order by
+    id_rol asc
+
+08-11-2024 19:07:48 [INFO] daos.UsuarioDao - sql:
+insert into usuario (
+    nombre, carnet, password, id_rol
+)
+values (
+    ?, ?, ?, ?
+)
+
+08-11-2024 19:10:00 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+08-11-2024 19:10:01 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+08-11-2024 19:10:08 [INFO] daos.UsuarioDao - sql:
+select
+    u.id_usuario,
+    u.nombre as nombre_usuario,
+    u.carnet,
+    u.password,
+    u.id_rol,
+    r.nombre as nombre_rol
+from
+    usuario u
+    join rol r on u.id_rol = r.id_rol
+order by
+    id_usuario asc
+
+08-11-2024 19:10:14 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+order by
+    id_rol asc
+
+08-11-2024 19:10:39 [INFO] daos.UsuarioDao - sql:
+insert into usuario (
+    nombre, carnet, password, id_rol
+)
+values (
+    ?, ?, ?, ?
+)
+
+08-11-2024 19:11:11 [INFO] daos.UsuarioDao - sql:
+select
+    u.id_usuario,
+    u.nombre as nombre_usuario,
+    u.carnet,
+    u.password,
+    u.id_rol,
+    r.nombre as nombre_rol
+from
+    usuario u
+    join rol r on u.id_rol = r.id_rol
+order by
+    id_usuario asc
+
+08-11-2024 19:11:16 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    id_usuario = ?
+
+08-11-2024 19:11:16 [ERROR] daos.UsuarioDao - Column 'nombre_usuario' not found.
+08-11-2024 19:14:57 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+08-11-2024 19:14:57 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+08-11-2024 19:15:00 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+order by
+    id_rol asc
+
+08-11-2024 19:15:02 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    id_usuario = ?
+
+08-11-2024 19:15:02 [ERROR] daos.UsuarioDao - Column 'nombre_usuario' not found.
+08-11-2024 19:16:39 [INFO] daos.UsuarioDao - sql:
+select
+    u.id_usuario,
+    u.nombre as nombre_usuario,
+    u.carnet,
+    u.password,
+    u.id_rol,
+    r.nombre as nombre_rol
+from
+    usuario u
+    join rol r on u.id_rol = r.id_rol
+order by
+    id_usuario asc
+
+08-11-2024 19:16:52 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    id_usuario = ?
+
+08-11-2024 19:16:52 [ERROR] daos.UsuarioDao - Column 'nombre_usuario' not found.
+08-11-2024 19:19:09 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+08-11-2024 19:19:10 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+08-11-2024 19:19:14 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+order by
+    id_rol asc
+
+08-11-2024 19:19:17 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    id_usuario = ?
+
+08-11-2024 19:21:47 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+08-11-2024 19:21:48 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+08-11-2024 19:21:52 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+order by
+    id_rol asc
+
+08-11-2024 19:21:58 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    id_usuario = ?
+
+08-11-2024 19:22:01 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    id_usuario = ?
+
+08-11-2024 19:22:05 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    id_usuario = ?
+
+08-11-2024 19:22:09 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    id_usuario = ?
+
+08-11-2024 19:22:19 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    id_usuario = ?
+
+08-11-2024 19:22:23 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    id_usuario = ?
+
+08-11-2024 19:22:30 [INFO] daos.UsuarioDao - sql:
+update
+    usuario
+set
+    nombre = ?,
+    carnet = ?,
+    password = ?,
+    id_rol = ?
+where
+    id_usuario = ?
+
+08-11-2024 19:22:34 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    id_usuario = ?
+
+08-11-2024 19:22:38 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    id_usuario = ?
+
+08-11-2024 19:25:15 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    id_usuario = ?
+
+08-11-2024 19:25:16 [INFO] daos.UsuarioDao - sql:
+delete from
+    usuario
+where
+    id_usuario = ?
+
+08-11-2024 19:25:20 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    id_usuario = ?
+
+08-11-2024 21:46:30 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+08-11-2024 21:46:31 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+08-11-2024 21:46:37 [INFO] daos.DvdDao - sql:
+select
+    *
+from
+    dvd
+order by
+    codigo asc
+
+08-11-2024 21:51:43 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+08-11-2024 21:52:18 [INFO] daos.LibroDao - sql:
+insert into libro (
+    codigo, titulo, autor, num_pag, editorial, isbn, anio_pub, unidades_disp, ubicacion
+)
+values (
+    ?, ?, ?, ?, ?, ?, ?, ?, ?
+)
+
+08-11-2024 21:52:18 [ERROR] daos.LibroDao - Column 'ubicacion' cannot be null
+08-11-2024 21:52:18 [INFO] daos.MaterialDao - sql:
+insert into material (
+    codigo, id_usuario
+)
+values (
+    ?, ?
+)
+
+08-11-2024 21:52:26 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+08-11-2024 21:56:30 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+08-11-2024 21:56:31 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+08-11-2024 21:57:27 [INFO] daos.LibroDao - sql:
+insert into libro (
+    codigo, titulo, autor, num_pag, editorial, isbn, anio_pub, unidades_disp, ubicacion
+)
+values (
+    ?, ?, ?, ?, ?, ?, ?, ?, ?
+)
+
+08-11-2024 21:57:27 [INFO] daos.MaterialDao - sql:
+insert into material (
+    codigo, id_usuario
+)
+values (
+    ?, ?
+)
+
+08-11-2024 21:57:35 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+08-11-2024 21:57:44 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+08-11-2024 21:59:58 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+08-11-2024 21:59:58 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+08-11-2024 22:00:57 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+09-11-2024 21:27:25 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+09-11-2024 21:27:26 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+09-11-2024 21:27:32 [INFO] daos.RevistaDao - sql:
+select
+    *
+from
+    revista
+order by
+    codigo asc
+
+09-11-2024 21:27:50 [INFO] daos.RevistaDao - sql:
+select
+    *
+from
+    revista
+where
+    codigo = ?
+
+09-11-2024 21:28:24 [INFO] daos.RevistaDao - sql:
+insert into revista (
+    codigo, titulo, editorial, periocidad, fecha_pub, unidades_disp, ubicacion
+)
+values (
+    ?, ?, ?, ?, ?, ?, ?
+)
+
+09-11-2024 21:28:24 [INFO] daos.MaterialDao - sql:
+insert into material (
+    codigo, id_usuario
+)
+values (
+    ?, ?
+)
+
+09-11-2024 21:28:26 [INFO] daos.RevistaDao - sql:
+select
+    *
+from
+    revista
+order by
+    codigo asc
+
+09-11-2024 21:28:40 [INFO] daos.RevistaDao - sql:
+select
+    *
+from
+    revista
+where
+    codigo = ?
+
+09-11-2024 21:28:44 [INFO] daos.RevistaDao - sql:
+update
+    revista
+set
+    titulo = ?,
+    editorial = ?,
+    periocidad = ?,
+    fecha_pub = ?,
+    unidades_disp = ?,
+    ubicacion = ?
+where
+    codigo = ?
+
+09-11-2024 21:28:46 [INFO] daos.RevistaDao - sql:
+select
+    *
+from
+    revista
+order by
+    codigo asc
+
+09-11-2024 21:28:52 [INFO] daos.RevistaDao - sql:
+select
+    *
+from
+    revista
+where
+    codigo = ?
+
+09-11-2024 21:28:54 [INFO] daos.RevistaDao - sql:
+delete from
+    revista
+where
+    codigo = ?
+
+09-11-2024 21:28:56 [INFO] daos.RevistaDao - sql:
+select
+    *
+from
+    revista
+order by
+    codigo asc
+
+09-11-2024 21:47:01 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+09-11-2024 21:47:02 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+09-11-2024 21:47:02 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+09-11-2024 21:47:12 [INFO] daos.CdDao - sql:
+select
+    *
+from
+    cd
+order by
+    codigo asc
+
+09-11-2024 21:47:14 [INFO] daos.CdDao - sql:
+select
+    *
+from
+    cd
+order by
+    codigo asc
+
+09-11-2024 21:48:01 [INFO] daos.CdDao - sql:
+insert into cd (
+    codigo, titulo, artista, genero, duracion, num_canciones, unidades_disp, ubicacion
+)
+values (
+    ?, ?, ?, ?, ?, ?, ?, ?
+)
+
+09-11-2024 21:48:01 [INFO] daos.MaterialDao - sql:
+insert into material (
+    codigo, id_usuario
+)
+values (
+    ?, ?
+)
+
+09-11-2024 21:48:04 [INFO] daos.CdDao - sql:
+select
+    *
+from
+    cd
+order by
+    codigo asc
+
+10-11-2024 00:33:55 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 00:33:55 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 00:34:16 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+10-11-2024 00:34:51 [INFO] daos.LibroDao - sql:
+insert into libro (
+    codigo, titulo, autor, num_pag, editorial, isbn, anio_pub, unidades_disp, ubicacion
+)
+values (
+    ?, ?, ?, ?, ?, ?, ?, ?, ?
+)
+
+10-11-2024 00:34:51 [INFO] daos.MaterialDao - sql:
+insert into material (
+    codigo, id_usuario
+)
+values (
+    ?, ?
+)
+
+10-11-2024 00:34:55 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+10-11-2024 00:35:12 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+10-11-2024 00:37:09 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 00:37:09 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 00:37:18 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+10-11-2024 00:37:30 [INFO] daos.LibroDao - sql:
+update
+    libro
+set
+    titulo = ?,
+    autor = ?,
+    num_pag = ?,
+    editorial = ?,
+    isbn = ?,
+    anio_pub = ?,
+    unidades_disp = ?,
+    ubicacion = ?
+where
+    codigo = ?
+
+10-11-2024 00:37:35 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+10-11-2024 00:38:44 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+10-11-2024 00:38:46 [INFO] daos.LibroDao - sql:
+delete from
+    libro
+where
+    codigo = ?
+
+10-11-2024 00:38:52 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+10-11-2024 00:48:38 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 00:48:38 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 00:49:00 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+10-11-2024 08:19:19 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 08:19:20 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 08:19:31 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+10-11-2024 08:19:43 [INFO] daos.RevistaDao - sql:
+select
+    *
+from
+    revista
+order by
+    codigo asc
+
+10-11-2024 08:19:50 [INFO] daos.CdDao - sql:
+select
+    *
+from
+    cd
+order by
+    codigo asc
+
+10-11-2024 08:20:02 [INFO] daos.DvdDao - sql:
+select
+    *
+from
+    dvd
+order by
+    codigo asc
+
+10-11-2024 08:22:24 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 08:22:24 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 08:22:46 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+10-11-2024 08:23:38 [INFO] daos.LibroDao - sql:
+insert into libro (
+    codigo, titulo, autor, num_pag, editorial, isbn, anio_pub, unidades_disp, ubicacion
+)
+values (
+    ?, ?, ?, ?, ?, ?, ?, ?, ?
+)
+
+10-11-2024 08:23:38 [INFO] daos.MaterialDao - sql:
+insert into material (
+    codigo, id_usuario
+)
+values (
+    ?, ?
+)
+
+10-11-2024 08:23:40 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+10-11-2024 08:23:47 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+10-11-2024 08:23:53 [INFO] daos.LibroDao - sql:
+update
+    libro
+set
+    titulo = ?,
+    autor = ?,
+    num_pag = ?,
+    editorial = ?,
+    isbn = ?,
+    anio_pub = ?,
+    unidades_disp = ?,
+    ubicacion = ?
+where
+    codigo = ?
+
+10-11-2024 08:23:54 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+10-11-2024 08:28:46 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 08:28:46 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 08:28:59 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+10-11-2024 08:29:08 [INFO] daos.LibroDao - sql:
+update
+    libro
+set
+    titulo = ?,
+    autor = ?,
+    num_pag = ?,
+    editorial = ?,
+    isbn = ?,
+    anio_pub = ?,
+    unidades_disp = ?,
+    ubicacion = ?
+where
+    codigo = ?
+
+10-11-2024 08:29:17 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+10-11-2024 08:29:24 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+10-11-2024 08:29:26 [INFO] daos.LibroDao - sql:
+delete from
+    libro
+where
+    codigo = ?
+
+10-11-2024 08:29:32 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+10-11-2024 08:31:55 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 08:31:55 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 08:33:24 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 08:33:24 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 08:49:01 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 08:49:02 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 08:49:11 [INFO] daos.RevistaDao - sql:
+select
+    *
+from
+    revista
+order by
+    codigo asc
+
+10-11-2024 08:49:38 [INFO] daos.RevistaDao - sql:
+insert into revista (
+    codigo, titulo, editorial, periocidad, fecha_pub, unidades_disp, ubicacion
+)
+values (
+    ?, ?, ?, ?, ?, ?, ?
+)
+
+10-11-2024 08:49:39 [INFO] daos.MaterialDao - sql:
+insert into material (
+    codigo, id_usuario
+)
+values (
+    ?, ?
+)
+
+10-11-2024 08:49:43 [INFO] daos.RevistaDao - sql:
+select
+    *
+from
+    revista
+order by
+    codigo asc
+
+10-11-2024 08:50:13 [INFO] daos.RevistaDao - sql:
+select
+    *
+from
+    revista
+where
+    codigo = ?
+
+10-11-2024 08:50:21 [INFO] daos.RevistaDao - sql:
+update
+    revista
+set
+    titulo = ?,
+    editorial = ?,
+    periocidad = ?,
+    fecha_pub = ?,
+    unidades_disp = ?,
+    ubicacion = ?
+where
+    codigo = ?
+
+10-11-2024 08:50:23 [INFO] daos.RevistaDao - sql:
+select
+    *
+from
+    revista
+order by
+    codigo asc
+
+10-11-2024 08:50:31 [INFO] daos.RevistaDao - sql:
+select
+    *
+from
+    revista
+where
+    codigo = ?
+
+10-11-2024 08:50:32 [INFO] daos.RevistaDao - sql:
+delete from
+    revista
+where
+    codigo = ?
+
+10-11-2024 08:50:35 [INFO] daos.RevistaDao - sql:
+select
+    *
+from
+    revista
+order by
+    codigo asc
+
+10-11-2024 08:50:40 [INFO] daos.CdDao - sql:
+select
+    *
+from
+    cd
+order by
+    codigo asc
+
+10-11-2024 08:52:08 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 08:52:08 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 08:52:28 [INFO] daos.CdDao - sql:
+select
+    *
+from
+    cd
+order by
+    codigo asc
+
+10-11-2024 08:52:37 [INFO] daos.CdDao - sql:
+insert into cd (
+    codigo, titulo, artista, genero, duracion, num_canciones, unidades_disp, ubicacion
+)
+values (
+    ?, ?, ?, ?, ?, ?, ?, ?
+)
+
+10-11-2024 08:52:37 [INFO] daos.MaterialDao - sql:
+insert into material (
+    codigo, id_usuario
+)
+values (
+    ?, ?
+)
+
+10-11-2024 08:52:42 [INFO] daos.CdDao - sql:
+select
+    *
+from
+    cd
+order by
+    codigo asc
+
+10-11-2024 08:52:50 [INFO] daos.CdDao - sql:
+select
+    *
+from
+    cd
+where
+    codigo = ?
+
+10-11-2024 08:52:54 [INFO] daos.CdDao - sql:
+update
+    cd
+set
+    titulo = ?,
+    artista = ?,
+    genero = ?,
+    duracion = ?,
+    num_canciones = ?,
+    unidades_disp = ?,
+    ubicacion = ?
+where
+    codigo = ?
+
+10-11-2024 08:52:56 [INFO] daos.CdDao - sql:
+select
+    *
+from
+    cd
+order by
+    codigo asc
+
+10-11-2024 08:53:03 [INFO] daos.CdDao - sql:
+select
+    *
+from
+    cd
+where
+    codigo = ?
+
+10-11-2024 08:53:05 [INFO] daos.CdDao - sql:
+delete from
+    cd
+where
+    codigo = ?
+
+10-11-2024 08:53:06 [INFO] daos.CdDao - sql:
+select
+    *
+from
+    cd
+order by
+    codigo asc
+
+10-11-2024 09:14:51 [INFO] daos.DvdDao - sql:
+select
+    *
+from
+    dvd
+order by
+    codigo asc
+
+10-11-2024 09:15:17 [INFO] daos.DvdDao - sql:
+insert into dvd (
+    codigo, titulo, director, duracion, genero, unidades_disp, ubicacion
+)
+values (
+    ?, ?, ?, ?, ?, ?, ?
+)
+
+10-11-2024 09:15:17 [ERROR] daos.DvdDao - Column 'ubicacion' cannot be null
+10-11-2024 09:15:17 [INFO] daos.MaterialDao - sql:
+insert into material (
+    codigo, id_usuario
+)
+values (
+    ?, ?
+)
+
+10-11-2024 09:15:22 [INFO] daos.DvdDao - sql:
+select
+    *
+from
+    dvd
+order by
+    codigo asc
+
+10-11-2024 09:15:23 [INFO] daos.DvdDao - sql:
+select
+    *
+from
+    dvd
+order by
+    codigo asc
+
+10-11-2024 09:18:45 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 09:18:46 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 09:18:50 [INFO] daos.DvdDao - sql:
+select
+    *
+from
+    dvd
+order by
+    codigo asc
+
+10-11-2024 09:19:56 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 09:19:57 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 09:20:02 [INFO] daos.DvdDao - sql:
+select
+    *
+from
+    dvd
+order by
+    codigo asc
+
+10-11-2024 09:22:04 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 09:22:05 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 09:22:42 [INFO] daos.DvdDao - sql:
+insert into dvd (
+    codigo, titulo, director, duracion, genero, unidades_disp, ubicacion
+)
+values (
+    ?, ?, ?, ?, ?, ?, ?
+)
+
+10-11-2024 09:22:43 [ERROR] daos.DvdDao - Column 'ubicacion' cannot be null
+10-11-2024 09:22:43 [INFO] daos.MaterialDao - sql:
+insert into material (
+    codigo, id_usuario
+)
+values (
+    ?, ?
+)
+
+10-11-2024 09:22:48 [INFO] daos.DvdDao - sql:
+select
+    *
+from
+    dvd
+order by
+    codigo asc
+
+10-11-2024 09:23:58 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 09:23:58 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 09:24:49 [INFO] daos.DvdDao - sql:
+insert into dvd (
+    codigo, titulo, director, duracion, genero, unidades_disp, ubicacion
+)
+values (
+    ?, ?, ?, ?, ?, ?, ?
+)
+
+10-11-2024 09:24:49 [INFO] daos.MaterialDao - sql:
+insert into material (
+    codigo, id_usuario
+)
+values (
+    ?, ?
+)
+
+10-11-2024 09:24:54 [INFO] daos.DvdDao - sql:
+select
+    *
+from
+    dvd
+order by
+    codigo asc
+
+10-11-2024 09:25:03 [INFO] daos.DvdDao - sql:
+select
+    *
+from
+    dvd
+where
+    codigo = ?
+
+10-11-2024 09:25:10 [INFO] daos.DvdDao - sql:
+update
+    dvd
+set
+    titulo = ?,
+    director = ?,
+    duracion = ?,
+    genero = ?,
+    unidades_disp = ?,
+    ubicacion = ?
+where
+    codigo = ?
+
+10-11-2024 09:25:13 [INFO] daos.DvdDao - sql:
+select
+    *
+from
+    dvd
+order by
+    codigo asc
+
+10-11-2024 09:25:19 [INFO] daos.DvdDao - sql:
+select
+    *
+from
+    dvd
+where
+    codigo = ?
+
+10-11-2024 09:25:20 [INFO] daos.DvdDao - sql:
+delete from
+    dvd
+where
+    codigo = ?
+
+10-11-2024 09:25:22 [INFO] daos.DvdDao - sql:
+select
+    *
+from
+    dvd
+order by
+    codigo asc
+
+10-11-2024 09:41:54 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 09:41:55 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 09:43:34 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 09:43:35 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 09:43:39 [INFO] daos.ObraDao - sql:
+select
+    *
+from
+    obra
+order by
+    codigo asc
+
+10-11-2024 09:43:57 [INFO] daos.ObraDao - sql:
+insert into obra (
+    codigo, titulo, autor, editorial, genero, unidades_disp, ubicacion
+)
+values (
+    ?, ?, ?, ?, ?, ?, ?
+)
+
+10-11-2024 09:43:57 [INFO] daos.MaterialDao - sql:
+insert into material (
+    codigo, id_usuario
+)
+values (
+    ?, ?
+)
+
+10-11-2024 09:44:00 [INFO] daos.ObraDao - sql:
+select
+    *
+from
+    obra
+order by
+    codigo asc
+
+10-11-2024 09:44:08 [INFO] daos.ObraDao - sql:
+select
+    *
+from
+    obra
+where
+    codigo = ?
+
+10-11-2024 09:44:20 [INFO] daos.ObraDao - sql:
+update
+    obra
+set
+    titulo = ?,
+    autor = ?,
+    editorial = ?,
+    genero = ?,
+    unidades_disp = ?,
+    ubicacion = ?
+where
+    codigo = ?
+
+10-11-2024 09:44:23 [INFO] daos.ObraDao - sql:
+select
+    *
+from
+    obra
+order by
+    codigo asc
+
+10-11-2024 09:44:30 [INFO] daos.ObraDao - sql:
+select
+    *
+from
+    obra
+where
+    codigo = ?
+
+10-11-2024 09:44:32 [INFO] daos.ObraDao - sql:
+delete from
+    obra
+where
+    codigo = ?
+
+10-11-2024 09:44:36 [INFO] daos.ObraDao - sql:
+select
+    *
+from
+    obra
+order by
+    codigo asc
+
+10-11-2024 09:57:11 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 09:57:11 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 09:57:24 [INFO] daos.TesisDao - sql:
+select
+    *
+from
+    tesis
+order by
+    codigo asc
+
+10-11-2024 09:58:00 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 09:58:00 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 09:58:04 [INFO] daos.TesisDao - sql:
+select
+    *
+from
+    tesis
+order by
+    codigo asc
+
+10-11-2024 09:58:16 [INFO] daos.TesisDao - sql:
+select
+    *
+from
+    tesis
+where
+    codigo = ?
+
+10-11-2024 09:58:30 [INFO] daos.TesisDao - sql:
+insert into tesis (
+    codigo, titulo, autor, editorial, facultad, carrera, unidades_disp, ubicacion
+)
+values (
+    ?, ?, ?, ?, ?, ?, ?, ?
+)
+
+10-11-2024 09:58:30 [INFO] daos.MaterialDao - sql:
+insert into material (
+    codigo, id_usuario
+)
+values (
+    ?, ?
+)
+
+10-11-2024 09:58:31 [INFO] daos.TesisDao - sql:
+select
+    *
+from
+    tesis
+order by
+    codigo asc
+
+10-11-2024 09:58:36 [INFO] daos.TesisDao - sql:
+select
+    *
+from
+    tesis
+where
+    codigo = ?
+
+10-11-2024 09:58:41 [INFO] daos.TesisDao - sql:
+update
+    tesis
+set
+    titulo = ?,
+    autor = ?,
+    editorial = ?,
+    facultad = ?,
+    carrera = ?,
+    unidades_disp = ?,
+    ubicacion = ?
+where
+    codigo = ?
+
+10-11-2024 09:58:55 [INFO] daos.TesisDao - sql:
+select
+    *
+from
+    tesis
+order by
+    codigo asc
+
+10-11-2024 09:59:01 [INFO] daos.TesisDao - sql:
+select
+    *
+from
+    tesis
+where
+    codigo = ?
+
+10-11-2024 09:59:06 [INFO] daos.TesisDao - sql:
+select
+    *
+from
+    tesis
+where
+    codigo = ?
+
+10-11-2024 09:59:07 [INFO] daos.TesisDao - sql:
+delete from
+    tesis
+where
+    codigo = ?
+
+10-11-2024 09:59:09 [INFO] daos.TesisDao - sql:
+select
+    *
+from
+    tesis
+order by
+    codigo asc
+
+10-11-2024 10:08:52 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 10:08:52 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 10:08:52 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 10:10:33 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 10:10:33 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 10:10:38 [INFO] daos.DocumentoDao - sql:
+select
+    *
+from
+    documento
+order by
+    codigo asc
+
+10-11-2024 10:10:53 [INFO] daos.DocumentoDao - sql:
+insert into documento (
+    codigo, titulo, autor, editorial, tematica, unidades_disp, ubicacion
+)
+values (
+    ?, ?, ?, ?, ?, ?, ?, ?
+)
+
+10-11-2024 10:10:53 [ERROR] daos.DocumentoDao - No value specified for parameter 8
+10-11-2024 10:10:53 [INFO] daos.MaterialDao - sql:
+insert into material (
+    codigo, id_usuario
+)
+values (
+    ?, ?
+)
+
+10-11-2024 10:10:55 [INFO] daos.DocumentoDao - sql:
+select
+    *
+from
+    documento
+order by
+    codigo asc
+
+10-11-2024 10:10:56 [INFO] daos.DocumentoDao - sql:
+select
+    *
+from
+    documento
+order by
+    codigo asc
+
+10-11-2024 10:10:56 [INFO] daos.DocumentoDao - sql:
+select
+    *
+from
+    documento
+order by
+    codigo asc
+
+10-11-2024 10:10:56 [INFO] daos.DocumentoDao - sql:
+select
+    *
+from
+    documento
+order by
+    codigo asc
+
+10-11-2024 10:12:01 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 10:12:01 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 10:12:06 [INFO] daos.DocumentoDao - sql:
+select
+    *
+from
+    documento
+order by
+    codigo asc
+
+10-11-2024 10:12:16 [INFO] daos.DocumentoDao - sql:
+insert into documento (
+    codigo, titulo, autor, editorial, tematica, unidades_disp, ubicacion
+)
+values (
+    ?, ?, ?, ?, ?, ?, ?
+)
+
+10-11-2024 10:12:16 [INFO] daos.MaterialDao - sql:
+insert into material (
+    codigo, id_usuario
+)
+values (
+    ?, ?
+)
+
+10-11-2024 10:12:17 [INFO] daos.DocumentoDao - sql:
+select
+    *
+from
+    documento
+order by
+    codigo asc
+
+10-11-2024 10:12:20 [INFO] daos.DocumentoDao - sql:
+select
+    *
+from
+    documento
+where
+    codigo = ?
+
+10-11-2024 10:12:25 [INFO] daos.DocumentoDao - sql:
+update
+    documento
+set
+    titulo = ?,
+    autor = ?,
+    editorial = ?,
+    tematica = ?,
+    unidades_disp = ?,
+    ubicacion = ?
+where
+    codigo = ?
+
+10-11-2024 10:12:27 [INFO] daos.DocumentoDao - sql:
+select
+    *
+from
+    documento
+order by
+    codigo asc
+
+10-11-2024 10:12:31 [INFO] daos.DocumentoDao - sql:
+select
+    *
+from
+    documento
+where
+    codigo = ?
+
+10-11-2024 10:12:34 [INFO] daos.DocumentoDao - sql:
+delete from
+    documento
+where
+    codigo = ?
+
+10-11-2024 10:12:35 [INFO] daos.DocumentoDao - sql:
+select
+    *
+from
+    documento
+order by
+    codigo asc
+
+10-11-2024 10:46:56 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 10:46:57 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 10:47:05 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+order by
+    id_rol asc
+
+10-11-2024 10:47:50 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 10:47:51 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 10:47:54 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+order by
+    id_rol asc
+
+10-11-2024 10:49:05 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 10:49:05 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 10:49:08 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+order by
+    id_rol asc
+
+10-11-2024 10:49:16 [INFO] daos.UsuarioDao - sql:
+select
+    u.id_usuario,
+    u.nombre as nombre_usuario,
+    u.carnet,
+    u.password,
+    u.id_rol,
+    r.nombre as nombre_rol
+from
+    usuario u
+    join rol r on u.id_rol = r.id_rol
+order by
+    id_usuario asc
+
+10-11-2024 10:49:20 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+order by
+    id_rol asc
+
+10-11-2024 11:45:50 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 11:45:51 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 11:45:56 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+10-11-2024 11:46:55 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 11:46:55 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 11:46:59 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+10-11-2024 11:57:39 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 11:57:40 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 11:57:45 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+10-11-2024 11:58:12 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 11:58:13 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 11:58:16 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+10-11-2024 11:58:26 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    id_parametro_sistema = ?
+
+10-11-2024 11:59:38 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 11:59:39 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 11:59:45 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    id_parametro_sistema = ?
+
+10-11-2024 12:07:38 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 12:07:39 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 12:07:44 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+10-11-2024 12:07:51 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    id_parametro_sistema = ?
+
+10-11-2024 12:08:58 [INFO] daos.ParametroSistemaDao - sql:
+insert into parametro_sistema (
+    nombre, descripcion, valor
+)
+values (
+    ?, ?, ?
+)
+
+10-11-2024 12:09:01 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+10-11-2024 12:11:54 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 12:11:55 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 12:11:59 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+10-11-2024 12:12:40 [INFO] daos.ParametroSistemaDao - sql:
+insert into parametro_sistema (
+    nombre, descripcion, valor
+)
+values (
+    ?, ?, ?
+)
+
+10-11-2024 12:12:42 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+10-11-2024 12:12:59 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    id_parametro_sistema = ?
+
+10-11-2024 12:13:12 [INFO] daos.ParametroSistemaDao - sql:
+update
+    parametro_sistema
+set
+    nombre = ?,
+    descripcion = ?,
+    valor = ?
+where
+    id_parametro_sistema = ?
+
+10-11-2024 12:13:14 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+10-11-2024 12:13:21 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    id_parametro_sistema = ?
+
+10-11-2024 12:13:23 [INFO] daos.ParametroSistemaDao - sql:
+delete from
+    parametroS=_sistema
+where
+    id_parametro_sistema = ?
+
+10-11-2024 12:13:23 [ERROR] daos.ParametroSistemaDao - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=_sistema
+where
+    id_parametro_sistema = 3' at line 2
+10-11-2024 12:13:25 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+10-11-2024 12:13:26 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+10-11-2024 12:13:26 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+10-11-2024 12:13:26 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+10-11-2024 12:13:27 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+10-11-2024 12:13:27 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+10-11-2024 12:13:27 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+10-11-2024 12:13:27 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+10-11-2024 12:13:27 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+10-11-2024 12:13:28 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+10-11-2024 12:13:28 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+10-11-2024 12:13:28 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+10-11-2024 12:14:19 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 12:14:19 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 12:14:23 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+10-11-2024 12:14:30 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    id_parametro_sistema = ?
+
+10-11-2024 12:14:43 [INFO] daos.ParametroSistemaDao - sql:
+delete from
+    parametroS=_sistema
+where
+    id_parametro_sistema = ?
+
+10-11-2024 12:14:43 [ERROR] daos.ParametroSistemaDao - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=_sistema
+where
+    id_parametro_sistema = 3' at line 2
+10-11-2024 12:15:21 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 12:15:22 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 12:15:26 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+10-11-2024 12:15:31 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    id_parametro_sistema = ?
+
+10-11-2024 12:15:32 [INFO] daos.ParametroSistemaDao - sql:
+delete from
+    parametro_sistema
+where
+    id_parametro_sistema = ?
+
+10-11-2024 12:15:34 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+10-11-2024 12:16:21 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 12:16:21 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 12:16:24 [INFO] daos.UsuarioDao - sql:
+select
+    u.id_usuario,
+    u.nombre as nombre_usuario,
+    u.carnet,
+    u.password,
+    u.id_rol,
+    r.nombre as nombre_rol
+from
+    usuario u
+    join rol r on u.id_rol = r.id_rol
+order by
+    id_usuario asc
+
+10-11-2024 12:16:28 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+order by
+    id_rol asc
+
+10-11-2024 12:16:50 [INFO] daos.UsuarioDao - sql:
+insert into usuario (
+    nombre, carnet, password, id_rol
+)
+values (
+    ?, ?, ?, ?
+)
+
+10-11-2024 12:16:52 [INFO] daos.UsuarioDao - sql:
+select
+    u.id_usuario,
+    u.nombre as nombre_usuario,
+    u.carnet,
+    u.password,
+    u.id_rol,
+    r.nombre as nombre_rol
+from
+    usuario u
+    join rol r on u.id_rol = r.id_rol
+order by
+    id_usuario asc
+
+10-11-2024 12:17:15 [INFO] daos.UsuarioDao - sql:
+insert into usuario (
+    nombre, carnet, password, id_rol
+)
+values (
+    ?, ?, ?, ?
+)
+
+10-11-2024 12:17:17 [INFO] daos.UsuarioDao - sql:
+select
+    u.id_usuario,
+    u.nombre as nombre_usuario,
+    u.carnet,
+    u.password,
+    u.id_rol,
+    r.nombre as nombre_rol
+from
+    usuario u
+    join rol r on u.id_rol = r.id_rol
+order by
+    id_usuario asc
+
+10-11-2024 12:17:24 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    id_usuario = ?
+
+10-11-2024 12:17:34 [INFO] daos.UsuarioDao - sql:
+update
+    usuario
+set
+    nombre = ?,
+    carnet = ?,
+    password = ?,
+    id_rol = ?
+where
+    id_usuario = ?
+
+10-11-2024 12:17:35 [INFO] daos.UsuarioDao - sql:
+select
+    u.id_usuario,
+    u.nombre as nombre_usuario,
+    u.carnet,
+    u.password,
+    u.id_rol,
+    r.nombre as nombre_rol
+from
+    usuario u
+    join rol r on u.id_rol = r.id_rol
+order by
+    id_usuario asc
+
+10-11-2024 12:17:41 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    id_usuario = ?
+
+10-11-2024 12:17:44 [INFO] daos.UsuarioDao - sql:
+update
+    usuario
+set
+    nombre = ?,
+    carnet = ?,
+    password = ?,
+    id_rol = ?
+where
+    id_usuario = ?
+
+10-11-2024 12:17:46 [INFO] daos.UsuarioDao - sql:
+select
+    u.id_usuario,
+    u.nombre as nombre_usuario,
+    u.carnet,
+    u.password,
+    u.id_rol,
+    r.nombre as nombre_rol
+from
+    usuario u
+    join rol r on u.id_rol = r.id_rol
+order by
+    id_usuario asc
+
+10-11-2024 12:18:04 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 12:18:04 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 12:18:27 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 12:18:27 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 12:18:45 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 22:17:26 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 22:17:27 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 22:17:30 [INFO] daos.UsuarioDao - sql:
+select
+    u.id_usuario,
+    u.nombre as nombre_usuario,
+    u.carnet,
+    u.password,
+    u.id_rol,
+    r.nombre as nombre_rol
+from
+    usuario u
+    join rol r on u.id_rol = r.id_rol
+order by
+    id_usuario asc
+
+10-11-2024 22:17:44 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 22:17:44 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 22:17:47 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion,
+    pre.mora
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+where
+    pre.id_usuario = ?
+order by
+    pre.id_prestamo asc
+
+10-11-2024 22:18:21 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 22:18:21 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 22:18:25 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion,
+    pre.mora
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+where
+    pre.id_usuario = ?
+order by
+    pre.id_prestamo asc
+
+10-11-2024 22:18:38 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 22:18:38 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 22:18:41 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion,
+    pre.mora
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on mat.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+10-11-2024 22:52:46 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 22:52:46 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+10-11-2024 22:53:06 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+10-11-2024 22:53:15 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    id_parametro_sistema = ?
+
+10-11-2024 22:56:53 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+10-11-2024 22:56:53 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+11-11-2024 06:16:42 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+11-11-2024 06:16:43 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+11-11-2024 06:16:52 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion,
+    pre.mora
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on mat.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 06:17:16 [INFO] daos.UsuarioDao - sql:
+select
+    u.id_usuario,
+    u.nombre as nombre_usuario,
+    u.carnet,
+    u.password,
+    u.id_rol,
+    r.nombre as nombre_rol
+from
+    usuario u
+    join rol r on u.id_rol = r.id_rol
+order by
+    id_usuario asc
+
+11-11-2024 06:17:21 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+order by
+    id_rol asc
+
+11-11-2024 06:17:27 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    id_usuario = ?
+
+11-11-2024 06:17:39 [INFO] daos.UsuarioDao - sql:
+update
+    usuario
+set
+    nombre = ?,
+    carnet = ?,
+    password = ?,
+    id_rol = ?
+where
+    id_usuario = ?
+
+11-11-2024 06:17:42 [INFO] daos.UsuarioDao - sql:
+select
+    u.id_usuario,
+    u.nombre as nombre_usuario,
+    u.carnet,
+    u.password,
+    u.id_rol,
+    r.nombre as nombre_rol
+from
+    usuario u
+    join rol r on u.id_rol = r.id_rol
+order by
+    id_usuario asc
+
+11-11-2024 06:17:47 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    id_usuario = ?
+
+11-11-2024 06:17:57 [INFO] daos.UsuarioDao - sql:
+update
+    usuario
+set
+    nombre = ?,
+    carnet = ?,
+    password = ?,
+    id_rol = ?
+where
+    id_usuario = ?
+
+11-11-2024 06:18:00 [INFO] daos.UsuarioDao - sql:
+select
+    u.id_usuario,
+    u.nombre as nombre_usuario,
+    u.carnet,
+    u.password,
+    u.id_rol,
+    r.nombre as nombre_rol
+from
+    usuario u
+    join rol r on u.id_rol = r.id_rol
+order by
+    id_usuario asc
+
+11-11-2024 06:18:05 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion,
+    pre.mora
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on mat.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 06:18:32 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+11-11-2024 06:18:41 [INFO] daos.RevistaDao - sql:
+select
+    *
+from
+    revista
+order by
+    codigo asc
+
+11-11-2024 06:19:45 [INFO] daos.LibroDao - sql:
+insert into libro (
+    codigo, titulo, autor, num_pag, editorial, isbn, anio_pub, unidades_disp, ubicacion
+)
+values (
+    ?, ?, ?, ?, ?, ?, ?, ?, ?
+)
+
+11-11-2024 06:19:45 [INFO] daos.MaterialDao - sql:
+insert into material (
+    codigo, id_usuario
+)
+values (
+    ?, ?
+)
+
+11-11-2024 06:19:51 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+11-11-2024 06:20:14 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 06:20:14 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 06:20:14 [INFO] daos.PrestamoDao - sql:
+select
+    pre.*,
+    mat.codigo
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+where
+    mat.codigo = ?
+    and pre.id_usuario = ?
+
+11-11-2024 06:21:29 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+11-11-2024 06:21:30 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+11-11-2024 06:21:34 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion,
+    pre.mora
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on mat.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 06:22:45 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 06:23:05 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 06:23:07 [INFO] daos.PrestamoDao - sql:
+select
+    pre.*,
+    mat.codigo
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+where
+    mat.codigo = ?
+    and pre.id_usuario = ?
+
+11-11-2024 06:24:58 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+11-11-2024 06:24:59 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+11-11-2024 06:25:02 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion,
+    pre.mora
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on mat.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 06:25:23 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 06:25:23 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 06:25:23 [INFO] daos.PrestamoDao - sql:
+select
+    pre.*,
+    mat.codigo
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+where
+    mat.codigo = ?
+    and pre.id_usuario = ?
+
+11-11-2024 06:26:00 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 06:26:00 [INFO] daos.MaterialDao - sql:
+select
+    *
+from
+    material
+where
+    codigo = ?
+
+11-11-2024 06:26:00 [INFO] daos.PrestamoDao - sql:
+insert into prestamo (
+    id_material, id_usuario, fecha_prestamo, fecha_devolucion
+)
+values (
+    ?, ?, ?, ?
+)
+
+11-11-2024 06:26:00 [ERROR] daos.PrestamoDao - Field 'mora' doesn't have a default value
+11-11-2024 06:26:00 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 06:26:00 [INFO] daos.LibroDao - sql:
+update
+    libro
+set
+    titulo = ?,
+    autor = ?,
+    num_pag = ?,
+    editorial = ?,
+    isbn = ?,
+    anio_pub = ?,
+    unidades_disp = ?,
+    ubicacion = ?
+where
+    codigo = ?
+
+11-11-2024 06:27:25 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+11-11-2024 06:28:04 [INFO] daos.LibroDao - sql:
+insert into libro (
+    codigo, titulo, autor, num_pag, editorial, isbn, anio_pub, unidades_disp, ubicacion
+)
+values (
+    ?, ?, ?, ?, ?, ?, ?, ?, ?
+)
+
+11-11-2024 06:28:04 [INFO] daos.MaterialDao - sql:
+insert into material (
+    codigo, id_usuario
+)
+values (
+    ?, ?
+)
+
+11-11-2024 06:28:05 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+11-11-2024 06:28:23 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 06:28:23 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 06:29:03 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+11-11-2024 06:29:03 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+11-11-2024 06:29:06 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion,
+    pre.mora
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on mat.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 06:29:06 [ERROR] daos.PrestamoDao - Unknown column 'pre.mora' in 'field list'
+11-11-2024 06:29:17 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 06:29:17 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 06:29:27 [INFO] daos.UsuarioDao - sql:
+select
+    u.id_usuario,
+    u.nombre as nombre_usuario,
+    u.carnet,
+    u.password,
+    u.id_rol,
+    r.nombre as nombre_rol
+from
+    usuario u
+    join rol r on u.id_rol = r.id_rol
+order by
+    id_usuario asc
+
+11-11-2024 06:29:29 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+order by
+    id_rol asc
+
+11-11-2024 06:29:44 [INFO] daos.UsuarioDao - sql:
+insert into usuario (
+    nombre, carnet, password, id_rol
+)
+values (
+    ?, ?, ?, ?
+)
+
+11-11-2024 06:29:46 [INFO] daos.UsuarioDao - sql:
+select
+    u.id_usuario,
+    u.nombre as nombre_usuario,
+    u.carnet,
+    u.password,
+    u.id_rol,
+    r.nombre as nombre_rol
+from
+    usuario u
+    join rol r on u.id_rol = r.id_rol
+order by
+    id_usuario asc
+
+11-11-2024 06:33:30 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+11-11-2024 06:33:31 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+11-11-2024 06:34:39 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+11-11-2024 06:34:47 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion,
+    pre.mora
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on mat.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 06:34:47 [ERROR] daos.PrestamoDao - Unknown column 'pre.mora' in 'field list'
+11-11-2024 06:35:04 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 06:35:16 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 06:35:16 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 06:35:20 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 06:35:20 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 06:35:20 [INFO] daos.PrestamoDao - sql:
+select
+    pre.*,
+    mat.codigo
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+where
+    mat.codigo = ?
+    and pre.id_usuario = ?
+
+11-11-2024 06:35:34 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 06:35:34 [INFO] daos.MaterialDao - sql:
+select
+    *
+from
+    material
+where
+    codigo = ?
+
+11-11-2024 06:35:34 [INFO] daos.PrestamoDao - sql:
+insert into prestamo (
+    id_material, id_usuario, fecha_prestamo, fecha_devolucion
+)
+values (
+    ?, ?, ?, ?
+)
+
+11-11-2024 06:35:34 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 06:35:34 [INFO] daos.LibroDao - sql:
+update
+    libro
+set
+    titulo = ?,
+    autor = ?,
+    num_pag = ?,
+    editorial = ?,
+    isbn = ?,
+    anio_pub = ?,
+    unidades_disp = ?,
+    ubicacion = ?
+where
+    codigo = ?
+
+11-11-2024 06:36:03 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion,
+    pre.mora
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on mat.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 06:36:03 [ERROR] daos.PrestamoDao - Unknown column 'pre.mora' in 'field list'
+11-11-2024 06:39:13 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+11-11-2024 06:39:14 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+11-11-2024 06:39:26 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+11-11-2024 06:39:57 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 06:39:57 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 06:39:57 [INFO] daos.PrestamoDao - sql:
+select
+    pre.*,
+    mat.codigo
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+where
+    mat.codigo = ?
+    and pre.id_usuario = ?
+
+11-11-2024 06:39:57 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 06:50:07 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+11-11-2024 06:50:08 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+11-11-2024 06:50:14 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+order by
+    id_rol asc
+
+11-11-2024 06:50:27 [INFO] daos.UsuarioDao - sql:
+insert into usuario (
+    nombre, carnet, password, id_rol
+)
+values (
+    ?, ?, ?, ?
+)
+
+11-11-2024 06:50:33 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+11-11-2024 06:50:48 [INFO] daos.ParametroSistemaDao - sql:
+insert into parametro_sistema (
+    nombre, descripcion, valor
+)
+values (
+    ?, ?, ?
+)
+
+11-11-2024 06:50:50 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+11-11-2024 06:50:58 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+11-11-2024 06:51:37 [INFO] daos.LibroDao - sql:
+insert into libro (
+    codigo, titulo, autor, num_pag, editorial, isbn, anio_pub, unidades_disp, ubicacion
+)
+values (
+    ?, ?, ?, ?, ?, ?, ?, ?, ?
+)
+
+11-11-2024 06:51:37 [INFO] daos.MaterialDao - sql:
+insert into material (
+    codigo, id_usuario
+)
+values (
+    ?, ?
+)
+
+11-11-2024 06:51:38 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+11-11-2024 06:51:46 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on mat.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 06:52:09 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 06:52:09 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 06:52:09 [INFO] daos.PrestamoDao - sql:
+select
+    pre.*,
+    mat.codigo
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+where
+    mat.codigo = ?
+    and pre.id_usuario = ?
+
+11-11-2024 06:52:22 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 06:52:22 [INFO] daos.MaterialDao - sql:
+select
+    *
+from
+    material
+where
+    codigo = ?
+
+11-11-2024 06:52:22 [INFO] daos.PrestamoDao - sql:
+insert into prestamo (
+    id_material, id_usuario, fecha_prestamo, fecha_devolucion
+)
+values (
+    ?, ?, ?, ?
+)
+
+11-11-2024 06:52:22 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 06:52:22 [INFO] daos.LibroDao - sql:
+update
+    libro
+set
+    titulo = ?,
+    autor = ?,
+    num_pag = ?,
+    editorial = ?,
+    isbn = ?,
+    anio_pub = ?,
+    unidades_disp = ?,
+    ubicacion = ?
+where
+    codigo = ?
+
+11-11-2024 06:52:28 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on mat.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 06:57:09 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+11-11-2024 06:57:10 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+11-11-2024 06:57:14 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+11-11-2024 06:57:57 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+11-11-2024 06:57:58 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+11-11-2024 06:58:04 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+order by
+    id_rol asc
+
+11-11-2024 06:58:18 [INFO] daos.UsuarioDao - sql:
+insert into usuario (
+    nombre, carnet, password, id_rol
+)
+values (
+    ?, ?, ?, ?
+)
+
+11-11-2024 06:58:57 [INFO] daos.LibroDao - sql:
+insert into libro (
+    codigo, titulo, autor, num_pag, editorial, isbn, anio_pub, unidades_disp, ubicacion
+)
+values (
+    ?, ?, ?, ?, ?, ?, ?, ?, ?
+)
+
+11-11-2024 06:58:57 [INFO] daos.MaterialDao - sql:
+insert into material (
+    codigo, id_usuario
+)
+values (
+    ?, ?
+)
+
+11-11-2024 07:00:02 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 07:00:14 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 07:00:14 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 07:00:14 [INFO] daos.PrestamoDao - sql:
+select
+    pre.*,
+    mat.codigo
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+where
+    mat.codigo = ?
+    and pre.id_usuario = ?
+
+11-11-2024 07:00:21 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 07:00:21 [INFO] daos.MaterialDao - sql:
+select
+    *
+from
+    material
+where
+    codigo = ?
+
+11-11-2024 07:00:21 [INFO] daos.PrestamoDao - sql:
+insert into prestamo (
+    id_material, id_usuario, fecha_prestamo, fecha_devolucion
+)
+values (
+    ?, ?, ?, ?
+)
+
+11-11-2024 07:00:21 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 07:00:21 [INFO] daos.LibroDao - sql:
+update
+    libro
+set
+    titulo = ?,
+    autor = ?,
+    num_pag = ?,
+    editorial = ?,
+    isbn = ?,
+    anio_pub = ?,
+    unidades_disp = ?,
+    ubicacion = ?
+where
+    codigo = ?
+
+11-11-2024 07:00:25 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 07:00:25 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 07:00:43 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 07:00:43 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 07:00:43 [INFO] daos.PrestamoDao - sql:
+select
+    pre.*,
+    mat.codigo
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+where
+    mat.codigo = ?
+    and pre.id_usuario = ?
+
+11-11-2024 07:00:43 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 07:00:44 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 07:01:02 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+11-11-2024 07:01:05 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 07:01:05 [INFO] daos.MaterialDao - sql:
+select
+    *
+from
+    material
+where
+    codigo = ?
+
+11-11-2024 07:01:05 [INFO] daos.PrestamoDao - sql:
+delete from
+    prestamo
+where
+    id_material = ?
+    and id_usuario = ?
+
+11-11-2024 07:01:05 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 07:01:05 [INFO] daos.LibroDao - sql:
+update
+    libro
+set
+    titulo = ?,
+    autor = ?,
+    num_pag = ?,
+    editorial = ?,
+    isbn = ?,
+    anio_pub = ?,
+    unidades_disp = ?,
+    ubicacion = ?
+where
+    codigo = ?
+
+11-11-2024 07:01:07 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+11-11-2024 07:01:14 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 07:01:50 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 07:01:50 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 07:01:50 [INFO] daos.PrestamoDao - sql:
+select
+    pre.*,
+    mat.codigo
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+where
+    mat.codigo = ?
+    and pre.id_usuario = ?
+
+11-11-2024 07:02:18 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 07:02:18 [INFO] daos.MaterialDao - sql:
+select
+    *
+from
+    material
+where
+    codigo = ?
+
+11-11-2024 07:02:18 [INFO] daos.PrestamoDao - sql:
+insert into prestamo (
+    id_material, id_usuario, fecha_prestamo, fecha_devolucion
+)
+values (
+    ?, ?, ?, ?
+)
+
+11-11-2024 07:02:18 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 07:02:18 [INFO] daos.LibroDao - sql:
+update
+    libro
+set
+    titulo = ?,
+    autor = ?,
+    num_pag = ?,
+    editorial = ?,
+    isbn = ?,
+    anio_pub = ?,
+    unidades_disp = ?,
+    ubicacion = ?
+where
+    codigo = ?
+
+11-11-2024 07:02:23 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 07:02:23 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 07:03:03 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 07:03:03 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 07:03:03 [INFO] daos.PrestamoDao - sql:
+select
+    pre.*,
+    mat.codigo
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+where
+    mat.codigo = ?
+    and pre.id_usuario = ?
+
+11-11-2024 07:03:03 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 07:03:03 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 07:03:19 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+11-11-2024 07:03:34 [INFO] daos.ParametroSistemaDao - sql:
+insert into parametro_sistema (
+    nombre, descripcion, valor
+)
+values (
+    ?, ?, ?
+)
+
+11-11-2024 07:03:37 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+11-11-2024 07:03:41 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 07:03:41 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 07:03:47 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 07:03:47 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 07:03:47 [INFO] daos.PrestamoDao - sql:
+select
+    pre.*,
+    mat.codigo
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+where
+    mat.codigo = ?
+    and pre.id_usuario = ?
+
+11-11-2024 07:03:47 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 07:07:44 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+11-11-2024 07:07:45 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+11-11-2024 07:07:50 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+11-11-2024 07:07:53 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 07:07:56 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 07:07:57 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 07:09:47 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+11-11-2024 07:09:47 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+11-11-2024 07:09:49 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+where
+    pre.id_usuario = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 07:09:49 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 07:10:11 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+11-11-2024 07:10:11 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+11-11-2024 07:10:22 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 07:10:22 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 07:10:22 [INFO] daos.PrestamoDao - sql:
+select
+    pre.*,
+    mat.codigo
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+where
+    mat.codigo = ?
+    and pre.id_usuario = ?
+
+11-11-2024 07:10:22 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 07:27:45 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+11-11-2024 07:27:46 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+11-11-2024 07:27:52 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 07:27:55 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 07:27:55 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 07:28:08 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 07:28:08 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 07:28:08 [INFO] daos.PrestamoDao - sql:
+select
+    pre.*,
+    mat.codigo
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+where
+    mat.codigo = ?
+    and pre.id_usuario = ?
+
+11-11-2024 07:28:08 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 07:30:21 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+11-11-2024 07:30:21 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+11-11-2024 07:30:25 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 07:30:28 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 07:30:28 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 07:30:42 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 07:30:42 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 07:30:42 [INFO] daos.PrestamoDao - sql:
+select
+    pre.*,
+    mat.codigo
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+where
+    mat.codigo = ?
+    and pre.id_usuario = ?
+
+11-11-2024 07:30:42 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 07:32:18 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+11-11-2024 07:32:19 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+11-11-2024 07:32:30 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 07:32:30 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 07:32:30 [INFO] daos.PrestamoDao - sql:
+select
+    pre.*,
+    mat.codigo
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+where
+    mat.codigo = ?
+    and pre.id_usuario = ?
+
+11-11-2024 07:32:30 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 07:32:38 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 07:32:38 [INFO] daos.MaterialDao - sql:
+select
+    *
+from
+    material
+where
+    codigo = ?
+
+11-11-2024 07:32:38 [INFO] daos.PrestamoDao - sql:
+delete from
+    prestamo
+where
+    id_material = ?
+    and id_usuario = ?
+
+11-11-2024 07:32:38 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 07:32:38 [INFO] daos.LibroDao - sql:
+update
+    libro
+set
+    titulo = ?,
+    autor = ?,
+    num_pag = ?,
+    editorial = ?,
+    isbn = ?,
+    anio_pub = ?,
+    unidades_disp = ?,
+    ubicacion = ?
+where
+    codigo = ?
+
+11-11-2024 07:32:42 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 07:32:46 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 07:40:24 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+11-11-2024 07:40:24 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+11-11-2024 07:40:31 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+order by
+    id_rol asc
+
+11-11-2024 07:40:37 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+order by
+    id_rol asc
+
+11-11-2024 07:40:57 [INFO] daos.UsuarioDao - sql:
+select
+    u.id_usuario,
+    u.nombre as nombre_usuario,
+    u.carnet,
+    u.password,
+    u.id_rol,
+    r.nombre as nombre_rol
+from
+    usuario u
+    join rol r on u.id_rol = r.id_rol
+order by
+    id_usuario asc
+
+11-11-2024 07:41:03 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+order by
+    id_rol asc
+
+11-11-2024 07:41:23 [INFO] daos.UsuarioDao - sql:
+insert into usuario (
+    nombre, carnet, password, id_rol
+)
+values (
+    ?, ?, ?, ?
+)
+
+11-11-2024 07:41:25 [INFO] daos.UsuarioDao - sql:
+select
+    u.id_usuario,
+    u.nombre as nombre_usuario,
+    u.carnet,
+    u.password,
+    u.id_rol,
+    r.nombre as nombre_rol
+from
+    usuario u
+    join rol r on u.id_rol = r.id_rol
+order by
+    id_usuario asc
+
+11-11-2024 07:41:42 [INFO] daos.UsuarioDao - sql:
+insert into usuario (
+    nombre, carnet, password, id_rol
+)
+values (
+    ?, ?, ?, ?
+)
+
+11-11-2024 07:41:43 [INFO] daos.UsuarioDao - sql:
+select
+    u.id_usuario,
+    u.nombre as nombre_usuario,
+    u.carnet,
+    u.password,
+    u.id_rol,
+    r.nombre as nombre_rol
+from
+    usuario u
+    join rol r on u.id_rol = r.id_rol
+order by
+    id_usuario asc
+
+11-11-2024 07:42:33 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+11-11-2024 07:42:33 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+11-11-2024 07:43:17 [INFO] daos.ParametroSistemaDao - sql:
+insert into parametro_sistema (
+    nombre, descripcion, valor
+)
+values (
+    ?, ?, ?
+)
+
+11-11-2024 07:43:19 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+order by
+    id_parametro_sistema asc
+
+11-11-2024 07:44:22 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+11-11-2024 07:45:21 [INFO] daos.LibroDao - sql:
+insert into libro (
+    codigo, titulo, autor, num_pag, editorial, isbn, anio_pub, unidades_disp, ubicacion
+)
+values (
+    ?, ?, ?, ?, ?, ?, ?, ?, ?
+)
+
+11-11-2024 07:45:21 [INFO] daos.MaterialDao - sql:
+insert into material (
+    codigo, id_usuario
+)
+values (
+    ?, ?
+)
+
+11-11-2024 07:45:25 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+11-11-2024 07:45:50 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 07:46:35 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 07:47:13 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 07:48:06 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 07:48:06 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 07:48:06 [INFO] daos.PrestamoDao - sql:
+select
+    pre.*,
+    mat.codigo
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+where
+    mat.codigo = ?
+    and pre.id_usuario = ?
+
+11-11-2024 07:48:18 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 07:48:18 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 07:48:30 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 07:48:30 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 07:48:30 [INFO] daos.PrestamoDao - sql:
+select
+    pre.*,
+    mat.codigo
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+where
+    mat.codigo = ?
+    and pre.id_usuario = ?
+
+11-11-2024 07:49:26 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 07:49:26 [INFO] daos.MaterialDao - sql:
+select
+    *
+from
+    material
+where
+    codigo = ?
+
+11-11-2024 07:49:26 [INFO] daos.PrestamoDao - sql:
+insert into prestamo (
+    id_material, id_usuario, fecha_prestamo, fecha_devolucion
+)
+values (
+    ?, ?, ?, ?
+)
+
+11-11-2024 07:49:26 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 07:49:26 [INFO] daos.LibroDao - sql:
+update
+    libro
+set
+    titulo = ?,
+    autor = ?,
+    num_pag = ?,
+    editorial = ?,
+    isbn = ?,
+    anio_pub = ?,
+    unidades_disp = ?,
+    ubicacion = ?
+where
+    codigo = ?
+
+11-11-2024 07:50:01 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 07:50:01 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 07:55:09 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+11-11-2024 07:55:10 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+11-11-2024 07:55:13 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 07:55:16 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 07:55:16 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 08:00:35 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+11-11-2024 08:00:36 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+11-11-2024 08:00:39 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 08:00:43 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 08:00:43 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 08:01:06 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+11-11-2024 08:01:06 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+11-11-2024 08:01:11 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 08:01:12 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 08:01:18 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 08:01:18 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 08:06:56 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+11-11-2024 08:06:57 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+11-11-2024 08:07:01 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 08:07:04 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 08:07:04 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 08:07:49 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 08:07:49 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 08:07:55 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 08:07:55 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 08:08:51 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+11-11-2024 08:09:29 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 08:09:29 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 08:09:29 [INFO] daos.PrestamoDao - sql:
+select
+    pre.*,
+    mat.codigo
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+where
+    mat.codigo = ?
+    and pre.id_usuario = ?
+
+11-11-2024 08:09:29 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 08:10:12 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 08:10:12 [INFO] daos.MaterialDao - sql:
+select
+    *
+from
+    material
+where
+    codigo = ?
+
+11-11-2024 08:10:12 [INFO] daos.PrestamoDao - sql:
+delete from
+    prestamo
+where
+    id_material = ?
+    and id_usuario = ?
+
+11-11-2024 08:10:12 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 08:10:12 [INFO] daos.LibroDao - sql:
+update
+    libro
+set
+    titulo = ?,
+    autor = ?,
+    num_pag = ?,
+    editorial = ?,
+    isbn = ?,
+    anio_pub = ?,
+    unidades_disp = ?,
+    ubicacion = ?
+where
+    codigo = ?
+
+11-11-2024 08:10:24 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 08:10:32 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+11-11-2024 08:11:34 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+11-11-2024 08:11:39 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 08:11:51 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 08:11:51 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 08:11:51 [INFO] daos.PrestamoDao - sql:
+select
+    pre.*,
+    mat.codigo
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+where
+    mat.codigo = ?
+    and pre.id_usuario = ?
+
+11-11-2024 08:14:02 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 08:14:02 [INFO] daos.MaterialDao - sql:
+select
+    *
+from
+    material
+where
+    codigo = ?
+
+11-11-2024 08:14:02 [INFO] daos.PrestamoDao - sql:
+insert into prestamo (
+    id_material, id_usuario, fecha_prestamo, fecha_devolucion
+)
+values (
+    ?, ?, ?, ?
+)
+
+11-11-2024 08:14:03 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 08:14:03 [INFO] daos.LibroDao - sql:
+update
+    libro
+set
+    titulo = ?,
+    autor = ?,
+    num_pag = ?,
+    editorial = ?,
+    isbn = ?,
+    anio_pub = ?,
+    unidades_disp = ?,
+    ubicacion = ?
+where
+    codigo = ?
+
+11-11-2024 08:15:49 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 08:15:49 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 08:16:53 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 08:16:53 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 08:16:53 [INFO] daos.PrestamoDao - sql:
+select
+    pre.*,
+    mat.codigo
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+where
+    mat.codigo = ?
+    and pre.id_usuario = ?
+
+11-11-2024 08:16:53 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 08:19:16 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+11-11-2024 08:19:17 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+11-11-2024 08:19:20 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 08:19:23 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 08:19:23 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 08:19:36 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+order by
+    codigo asc
+
+11-11-2024 08:20:00 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 08:20:01 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 08:20:01 [INFO] daos.PrestamoDao - sql:
+select
+    pre.*,
+    mat.codigo
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+where
+    mat.codigo = ?
+    and pre.id_usuario = ?
+
+11-11-2024 08:20:01 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 08:21:02 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 08:21:02 [INFO] daos.MaterialDao - sql:
+select
+    *
+from
+    material
+where
+    codigo = ?
+
+11-11-2024 08:21:02 [INFO] daos.PrestamoDao - sql:
+delete from
+    prestamo
+where
+    id_material = ?
+    and id_usuario = ?
+
+11-11-2024 08:21:02 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 08:21:02 [INFO] daos.LibroDao - sql:
+update
+    libro
+set
+    titulo = ?,
+    autor = ?,
+    num_pag = ?,
+    editorial = ?,
+    isbn = ?,
+    anio_pub = ?,
+    unidades_disp = ?,
+    ubicacion = ?
+where
+    codigo = ?
+
+11-11-2024 08:22:16 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+11-11-2024 08:22:17 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+11-11-2024 08:22:20 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 08:22:23 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 08:22:41 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 08:22:41 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 08:22:41 [INFO] daos.PrestamoDao - sql:
+select
+    pre.*,
+    mat.codigo
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+where
+    mat.codigo = ?
+    and pre.id_usuario = ?
+
+11-11-2024 08:22:50 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 08:22:50 [INFO] daos.MaterialDao - sql:
+select
+    *
+from
+    material
+where
+    codigo = ?
+
+11-11-2024 08:22:50 [INFO] daos.PrestamoDao - sql:
+insert into prestamo (
+    id_material, id_usuario, fecha_prestamo, fecha_devolucion
+)
+values (
+    ?, ?, ?, ?
+)
+
+11-11-2024 08:22:51 [INFO] daos.LibroDao - sql:
+select
+    *
+from
+    libro
+where
+    codigo = ?
+
+11-11-2024 08:22:51 [INFO] daos.LibroDao - sql:
+update
+    libro
+set
+    titulo = ?,
+    autor = ?,
+    num_pag = ?,
+    editorial = ?,
+    isbn = ?,
+    anio_pub = ?,
+    unidades_disp = ?,
+    ubicacion = ?
+where
+    codigo = ?
+
+11-11-2024 08:22:54 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 08:22:54 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 08:23:10 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+11-11-2024 08:23:10 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+11-11-2024 08:23:14 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+where
+    pre.id_usuario = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 08:23:14 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 08:23:30 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+11-11-2024 08:23:30 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+11-11-2024 08:23:35 [INFO] daos.RevistaDao - sql:
+select
+    *
+from
+    revista
+order by
+    codigo asc
+
+11-11-2024 08:24:07 [INFO] daos.RevistaDao - sql:
+insert into revista (
+    codigo, titulo, editorial, periocidad, fecha_pub, unidades_disp, ubicacion
+)
+values (
+    ?, ?, ?, ?, ?, ?, ?
+)
+
+11-11-2024 08:24:07 [INFO] daos.MaterialDao - sql:
+insert into material (
+    codigo, id_usuario
+)
+values (
+    ?, ?
+)
+
+11-11-2024 08:24:10 [INFO] daos.RevistaDao - sql:
+select
+    *
+from
+    revista
+order by
+    codigo asc
+
+11-11-2024 08:24:25 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 08:24:25 [INFO] daos.RevistaDao - sql:
+select
+    *
+from
+    revista
+where
+    codigo = ?
+
+11-11-2024 08:24:25 [INFO] daos.PrestamoDao - sql:
+select
+    pre.*,
+    mat.codigo
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+where
+    mat.codigo = ?
+    and pre.id_usuario = ?
+
+11-11-2024 08:24:31 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 08:24:31 [INFO] daos.MaterialDao - sql:
+select
+    *
+from
+    material
+where
+    codigo = ?
+
+11-11-2024 08:24:31 [INFO] daos.PrestamoDao - sql:
+insert into prestamo (
+    id_material, id_usuario, fecha_prestamo, fecha_devolucion
+)
+values (
+    ?, ?, ?, ?
+)
+
+11-11-2024 08:24:31 [INFO] daos.RevistaDao - sql:
+select
+    *
+from
+    revista
+where
+    codigo = ?
+
+11-11-2024 08:24:31 [INFO] daos.RevistaDao - sql:
+update
+    revista
+set
+    titulo = ?,
+    editorial = ?,
+    periocidad = ?,
+    fecha_pub = ?,
+    unidades_disp = ?,
+    ubicacion = ?
+where
+    codigo = ?
+
+11-11-2024 08:24:38 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 08:24:44 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 08:24:44 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 08:24:44 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 08:24:56 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 08:25:17 [INFO] daos.RevistaDao - sql:
+select
+    *
+from
+    revista
+order by
+    codigo asc
+
+11-11-2024 08:25:24 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 08:25:24 [INFO] daos.RevistaDao - sql:
+select
+    *
+from
+    revista
+where
+    codigo = ?
+
+11-11-2024 08:25:24 [INFO] daos.PrestamoDao - sql:
+select
+    pre.*,
+    mat.codigo
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+where
+    mat.codigo = ?
+    and pre.id_usuario = ?
+
+11-11-2024 08:25:31 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 08:25:31 [INFO] daos.MaterialDao - sql:
+select
+    *
+from
+    material
+where
+    codigo = ?
+
+11-11-2024 08:25:31 [INFO] daos.PrestamoDao - sql:
+insert into prestamo (
+    id_material, id_usuario, fecha_prestamo, fecha_devolucion
+)
+values (
+    ?, ?, ?, ?
+)
+
+11-11-2024 08:25:31 [INFO] daos.RevistaDao - sql:
+select
+    *
+from
+    revista
+where
+    codigo = ?
+
+11-11-2024 08:25:31 [INFO] daos.RevistaDao - sql:
+update
+    revista
+set
+    titulo = ?,
+    editorial = ?,
+    periocidad = ?,
+    fecha_pub = ?,
+    unidades_disp = ?,
+    ubicacion = ?
+where
+    codigo = ?
+
+11-11-2024 08:25:34 [INFO] daos.RevistaDao - sql:
+select
+    *
+from
+    revista
+order by
+    codigo asc
+
+11-11-2024 08:25:53 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+
+11-11-2024 08:26:07 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 08:26:09 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+    join usuario usu on pre.id_usuario = usu.id_usuario
+where
+    usu.carnet = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 08:26:09 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 08:26:18 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+11-11-2024 08:26:18 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+11-11-2024 08:26:21 [INFO] daos.PrestamoDao - sql:
+select
+    pre.id_prestamo,
+    pre.id_material,
+    pre.id_usuario,
+    mat.codigo,
+    pre.fecha_prestamo,
+    pre.fecha_devolucion
+from
+    prestamo pre
+    join material mat on pre.id_material = mat.id_material
+where
+    pre.id_usuario = ?
+order by
+    pre.id_prestamo asc
+
+11-11-2024 08:26:21 [INFO] daos.ParametroSistemaDao - sql:
+select
+    *
+from
+    parametro_sistema
+where
+    nombre = ?
+
+11-11-2024 08:27:13 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+11-11-2024 08:27:13 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+11-11-2024 08:27:21 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+order by
+    id_rol asc
+
+11-11-2024 08:27:24 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    id_usuario = ?
+
+11-11-2024 08:27:34 [INFO] daos.UsuarioDao - sql:
+update
+    usuario
+set
+    nombre = ?,
+    carnet = ?,
+    password = ?,
+    id_rol = ?
+where
+    id_usuario = ?
+
+11-11-2024 08:27:38 [INFO] daos.UsuarioDao - sql:
+select
+    u.id_usuario,
+    u.nombre as nombre_usuario,
+    u.carnet,
+    u.password,
+    u.id_rol,
+    r.nombre as nombre_rol
+from
+    usuario u
+    join rol r on u.id_rol = r.id_rol
+order by
+    id_usuario asc
+
+11-11-2024 08:27:53 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+11-11-2024 08:27:58 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+11-11-2024 08:27:58 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
+20-11-2024 00:06:07 [INFO] daos.UsuarioDao - sql:
+select
+    *
+from
+    usuario
+where
+    carnet = ?
+    and password = ?
+
+20-11-2024 00:06:08 [INFO] daos.RolDao - sql:
+select
+    *
+from
+    rol
+where
+    id_rol = ?
+
